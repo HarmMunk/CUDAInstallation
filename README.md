@@ -18,6 +18,10 @@ kernel module flavour:<br/>`$ sudo apt-get install -y cuda-drivers`.
 
 ### Problems
 
-And then I got his error message;
+And then I got his error messages:
 
 `E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered`
+
+`E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered`
+
+`E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered`
