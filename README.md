@@ -15,3 +15,9 @@ The nouveau driver is not installed: `sudo lsmod | grep nouveau` gives no result
 
 The open kernel module flavour didn't work for me. Use the legacy 
 kernel module flavour:<br/>`$ sudo apt-get install -y cuda-drivers`.
+
+### Problems
+
+And then I got his error message;
+
+`E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered`
