@@ -1,4 +1,4 @@
-# InstallCUDonDebianBullseye
+# CUDAInstallation
 Notes on installing CUDO on Debian Bullseye
 
 ## For now, CUDA is installed without GPUDirect Storage installed.
