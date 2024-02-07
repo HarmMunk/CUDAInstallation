@@ -13,4 +13,5 @@ Follow the instructions at [https://developer.nvidia.com/cuda-downloads](https:/
 
 The nouveau driver is not installed: `sudo lsmod | grep nouveau` gives no result.
 
-
+The open kernel module flavour didn't work for me. Use the legacy 
+kernel module flavour: '$ sudo apt-get install -y cuda-drivers'.
