@@ -10,8 +10,7 @@ the system.
 ## CUDA installation
 
 Follow the instructions at [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads).
-The nouveau driver is not installed
 
-`sudo lsmod | grep nouveau` gives no result.
+The nouveau driver is not installed: `sudo lsmod | grep nouveau` gives no result.
 
 
