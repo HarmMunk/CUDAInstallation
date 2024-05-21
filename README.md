@@ -27,3 +27,7 @@ And then I got these error messages:
 `E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered`
 
 One solution I will try is to run TensorFlow from in a Docker container. For this, the KVM virtual machine must be installed.
+
+But even without Docker, this runs fine on the GPU. It seems that something required is already installed when attempting to install that same piece of sofwtare again.
+
+Run `nvidia-smi` to watch GPU activity when an application that is supposed to use the GPU runs.
