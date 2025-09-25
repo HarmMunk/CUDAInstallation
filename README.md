@@ -31,3 +31,6 @@ One solution I will try is to run TensorFlow from in a Docker container. For thi
 But even without Docker, this runs fine on the GPU. It seems that something required is already installed when attempting to install that same piece of software again.
 
 Run `nvidia-smi` to watch GPU activity when an application that is supposed to use the GPU runs.
+ 
+## Installation
+The tools, such as ```nvcc```, are in ```/usr/local/cuda/bin```. Added this to ```PATH```.
