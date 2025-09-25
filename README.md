@@ -33,4 +33,4 @@ But even without Docker, this runs fine on the GPU. It seems that something requ
 Run `nvidia-smi` to watch GPU activity when an application that is supposed to use the GPU runs.
  
 ## Installation
-The tools, such as ```nvcc```, are in ```/usr/local/cuda/bin```. Added this to ```PATH```.
+The tools, such as ```nvcc```, are in ```/usr/local/cuda/bin```. Added this to ```PATH``` in the ```.zshenv``` file.
